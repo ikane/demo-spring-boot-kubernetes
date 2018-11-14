@@ -41,6 +41,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
+		<!-- Spring Cloud Kubernetes -->
+		<dependency>
+		    <groupId>io.fabric8</groupId>
+		    <artifactId>spring-cloud-starter-kubernetes</artifactId>
+		    <version>0.1.6</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
